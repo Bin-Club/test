@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+#menu-h {
+  background-color: black;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 15%;
+  border-radius: 20px;
+}
+
+#menu-h ul {
+  margin-left: 2%;
+  max-width: 90%;
+  list-style: none;
+  background-color: black;
+}
+
+#menu-h ul li {
+  display: inline;
+}
+
+#menu-h ul li a {
+  color: white;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  /*background-color: black;*/
+}
+
+.produtin{
+  background-color: rgb(58, 16, 83);
+  border-radius: 20px;
+}
+
+#menu-h ul li a:hover {
+  border-radius: 20px;
+  background-color: blueviolet;
+}
+
+#menu-h ul li:last-child {
+  float: right;
+  background-color: blueviolet;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(22, 22, 22);
+  background-image: url('../Style/wallpaper.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      filter: blur(100);
+}
+
+#Produtos_disponíveis{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 3%;
+  color: aliceblue;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+p{
+  color: aliceblue;
+}
+
+
+#tabela{
+  text-decoration: none;
+  margin-left: 45%;
+  text-align: center;
+}
+
+.card {
+  margin: 20px auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 2px black;
+  border: solid 1px blueviolet;
+  width: 300px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.card button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background: #9600FF;
+  width: 150px;
+}
+
+.card button:hover {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background: purple;
+  width: 150px;
+}
+
+.card hr {
+  margin: 10px 0px;
+  height: 1px;
+  width: 100%;
+  background: blueviolet;
+  border: none;
+}
+
+.card img {
+  margin: 10px auto;
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.carrin {
+  color: blueviolet;
+  float: right;
+  /* border: 4px red solid;*/
+  margin-left: 10px 10px 20px;
+  z-index: 99;
+}

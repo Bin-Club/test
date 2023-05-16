@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="author" content="Robson Martins">
+    <meta name="description" content="Roupas para uma geração mais dripada, e com um alto gosto em questões de alfinetaria.">
+    <meta name="robots" content="index, nofollow">
+    <title>Coisa boa</title>
+    <link rel="stylesheet" href="../Style/Style-home copy.css">
+    <link rel="icon" href="./bob.jpg">
+  </head>
+    <body>
+      <div id="navbar">
+        <a href="#default" id="logo">logo do coisa boa</a>
+        <div id="navbar-right">
+          <a class="active" href="#home">Home</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+
+      <div class="sidenav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
+        <button class="dropdown-btn">Dropdown
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+          <a href="#">Coisa boa 1</a>
+          <a href="#">Coisa boa 2</a>
+          <a href="#">Coisa boa 3</a>
+        </div>
+        <a href="#contact">Search</a>
+      </div>
+
+      <div class="atendente">
+        <img src="../home/atendente.svg" alt="aooba">
+      </div>
+
+      <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "45px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+//* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+      </script>
+
+    <h1>Produtos</h1>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consectetur facere impedit obcaecati quasi. Ea similique consequuntur magnam nesciunt recusandae consectetur dignissimos tempore provident eum! Excepturi repellendus maxime aperiam tempora!
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt ipsam, accusantium veniam aut temporibus libero pariatur similique deserunt tenetur consequatur molestiae placeat odio quas dolores? Corporis doloremque dolorum deleniti repellendus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni at veritatis architecto quisquam dolores voluptatibus cum eaque voluptates doloremque sunt velit, eius impedit consequuntur, odio, blanditiis maiores. Voluptas, quidem cumque.</p>
+    </h2>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepe iure sint cupiditate, eius voluptas magnam mollitia officia.lo loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepeLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis, et voluptate saepe accusamus commodi dolores eveniet, dolore impedit veritatis animi modi cumque amet voluptatem cum vitae placeat, soluta qui. loren
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptate ex nemo. Libero necessitatibus inventore veritatis distinctio dolor velit ut, facere saepe
+    </h1>
+    <a href="../table_of_size/TableOfSize.html">Tabela de preços</a>
+
+
+    
+    
+</p>
+</body>
+</html>
+<!--Te amo-->

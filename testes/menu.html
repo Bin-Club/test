@@ -1,0 +1,56 @@
+
+<style>
+    html, body {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    
+    #conteudo {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      background-color: whitesmoke;
+      overflow: auto;
+    }
+    
+    #nav {
+      position: absolute;
+      top: 0px;
+      left: -255px;
+      bottom: 0px;
+      width: 250px;
+      background-color: gainsboro;
+      box-shadow: 0px 0px 10px black;
+    
+      transition: left 0.5s linear;
+    }
+    
+    #nav.show {
+      left: 0px;
+    }
+    </style>
+    <html>
+    <div id="conteudo">
+      <input id="showMenu" type="button" value="Exibir Menu" />
+    </div>
+    <div id="nav">
+      <input id="hideMenu" type="button" value="Ocultar Menu" />
+    </div>
+    <script>
+    var nav = document.getElementById("nav");
+    var showMenu = document.getElementById("showMenu");
+    var hideMenu = document.getElementById("hideMenu");
+    showMenu.addEventListener("click", function () {
+      nav.classList.add("show");
+    });
+    
+    hideMenu.addEventListener("click", function () {
+      nav.classList.remove("show");
+    });
+    </script>
+    </html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Painel de login</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="login.css">
+    </style>
+</head>
+<script>
+    $(function(){
+  $('a[href*="/login"]').attr('href','hID-');
+});
+</script>
+<body>
+
+    <form action="/login?">
+        <p style="color: rebeccapurple" id="logo">Coisa boa</p>
+        <div id="wrap">
+            <label for="username">
+                Nome:
+                <input name="username" type="text" />
+            </label>
+
+            <label for="password">
+                Senha:
+                <input name="password" type="password" />
+            </label>
+
+            <label for="login">
+                <input  name ="Login" type="submit" value="Entrar" />
+            </label>
+            <hr>
+            <label for="sendpassword">
+                <a href="/profile?mode=sendpassword">Esqueci minha senha</a>
+            </label>
+
+            <label for="autologin">
+                <input name="autologin" id="autologin" tabindex="4" checked="checked" class="radio" type="checkbox" /> Conexão automática
+            </label>
+        </div>
+    </form>
+
+</body>
+</html>
